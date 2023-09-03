@@ -27,7 +27,7 @@ while d == 1:
 
 
 def is_prime(num):
-    # Check if a number is prime
+    # Check if a num is prime
     if num < 2:
         # If num is less than 2, it is not prime, so return False
         return False
@@ -42,7 +42,7 @@ def is_prime(num):
 
 
 def main():
-    # Check if the correct number of command-line arguments is provided"""
+    # Check if the correct num of command-line arguments is provided"""
     if len(sys.argv) != 2:
         print("Usage: python factorize.py <file>")
         return
